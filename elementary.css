@@ -172,12 +172,18 @@ h1, h2, h3, p { margin-top: 0; }
 .primary-button:active { transform: translate(2px, 3px); box-shadow: 1px 1px 0 var(--ink); }
 
 .question-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.question-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 8px; }
 .round-label, .category-label { border: 2px solid var(--ink); border-radius: 999px; padding: 2px 10px; font-size: 14px; }
 .round-label { background: var(--blue); }
 .category-label { display: inline-flex; align-items: center; background: #f8c3b9; }
+.speech-button { display: inline-flex; min-height: 42px; align-items: center; justify-content: center; gap: 6px; border: 2px solid var(--ink); border-radius: 999px; background: #fff1c8; padding: 5px 12px; font-size: 14px; font-weight: 700; }
+.speech-button:hover:not(:disabled), .speech-button[aria-pressed="true"] { background: var(--yellow); }
+.speech-button:disabled { cursor: not-allowed; opacity: .6; }
+.speech-button svg { width: 21px; height: 21px; flex: 0 0 auto; }
 .progress-track { height: 13px; overflow: hidden; border: 2px solid var(--ink); border-radius: 999px; background: #eee8dd; }
 .progress-track span { display: block; width: 0; height: 100%; border-right: 2px solid var(--ink); background: var(--green); transition: width .25s ease; }
 .question-text { min-height: 48px; margin: 20px 0 2px; font-size: clamp(21px, 4vw, 28px); line-height: 1.45; }
+.speech-status { min-height: 20px; margin: 4px 0 8px; color: var(--muted); font-size: 12px; line-height: 1.5; }
 .annotated-char { display: inline-grid; grid-template-columns: auto .72em; align-items: center; vertical-align: middle; line-height: 1.5; }
 .annotated-char__text { grid-column: 1; grid-row: 1; }
 .annotated-char__reading { grid-column: 2; grid-row: 1; justify-self: start; writing-mode: vertical-rl; text-orientation: upright; white-space: nowrap; color: #625e57; font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif; font-size: .58em; line-height: 1; letter-spacing: -.08em; }

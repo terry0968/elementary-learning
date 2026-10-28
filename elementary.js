@@ -40,7 +40,20 @@
         { category: "數字組合", categoryZhuyin: "ㄕㄨˋ ㄗˋ ㄗㄨˇ ㄏㄜˊ", prompt: "用 1、3、5 三張數字卡，排出最大的兩位數，可以排成幾？", promptZhuyin: "ㄩㄥˋ ㄧ、ㄙㄢ、ㄨˇ ㄙㄢ ㄓㄤ ㄕㄨˋ ㄗˋ ㄎㄚˇ，ㄆㄞˊ ㄔㄨ ㄗㄨㄟˋ ㄉㄚˋ ㄉㄜ˙ ㄌㄧㄤˇ ㄨㄟˋ ㄕㄨˋ，ㄎㄜˇ ㄧˇ ㄆㄞˊ ㄔㄥˊ ㄐㄧˇ？", options: ["35", "51", "53"], optionZhuyin: ["ㄙㄢ ㄕˊ ㄨˇ", "ㄨˇ ㄕˊ ㄧ", "ㄨˇ ㄕˊ ㄙㄢ"], answer: "53", explain: "十位放最大的數字 5，個位放下一大的數字 3，得到 53。", explainZhuyin: "ㄕˊ ㄨㄟˋ ㄈㄤˋ ㄗㄨㄟˋ ㄉㄚˋ ㄉㄜ˙ ㄕㄨˋ ㄗˋ ㄨˇ，ㄍㄜˋ ㄨㄟˋ ㄈㄤˋ ㄒㄧㄚˋ ㄧˊ ㄉㄚˋ ㄉㄜ˙ ㄕㄨˋ ㄗˋ ㄙㄢ，ㄉㄜˊ ㄉㄠˋ ㄨˇ ㄕˊ ㄙㄢ。" },
         { category: "時間推理", categoryZhuyin: "ㄕˊ ㄐㄧㄢ ㄊㄨㄟ ㄌㄧˇ", prompt: "今天是星期二，過 3 天是星期幾？", promptZhuyin: "ㄐㄧㄣ ㄊㄧㄢ ㄕˋ ㄒㄧㄥ ㄑㄧˊ ㄦˋ，ㄍㄨㄛˋ ㄙㄢ ㄊㄧㄢ ㄕˋ ㄒㄧㄥ ㄑㄧˊ ㄐㄧˇ？", options: ["星期四", "星期五", "星期六"], optionZhuyin: ["ㄒㄧㄥ ㄑㄧˊ ㄙˋ", "ㄒㄧㄥ ㄑㄧˊ ㄨˇ", "ㄒㄧㄥ ㄑㄧˊ ㄌㄧㄡˋ"], answer: "星期五", explain: "星期二再過三天，依序是星期三、星期四、星期五。", explainZhuyin: "ㄒㄧㄥ ㄑㄧˊ ㄦˋ ㄗㄞˋ ㄍㄨㄛˋ ㄙㄢ ㄊㄧㄢ，ㄧ ㄒㄩˋ ㄕˋ ㄒㄧㄥ ㄑㄧˊ ㄙㄢ、ㄒㄧㄥ ㄑㄧˊ ㄙˋ、ㄒㄧㄥ ㄑㄧˊ ㄨˇ。" },
         { category: "生活推理", categoryZhuyin: "ㄕㄥ ㄏㄨㄛˊ ㄊㄨㄟ ㄌㄧˇ", prompt: "桌上有 3 個盤子，每個盤子放 2 顆橘子，一共有幾顆橘子？", promptZhuyin: "ㄓㄨㄛ ㄕㄤˋ ㄧㄡˇ ㄙㄢ ㄍㄜ˙ ㄆㄢˊ ㄗ˙，ㄇㄟˇ ㄍㄜ˙ ㄆㄢˊ ㄗ˙ ㄈㄤˋ ㄦˋ ㄎㄜ ㄐㄩˊ ㄗ˙，ㄧˊ ㄍㄨㄥˋ ㄧㄡˇ ㄐㄧˇ ㄎㄜ ㄐㄩˊ ㄗ˙？", options: ["5 顆", "6 顆", "8 顆"], optionZhuyin: ["ㄨˇ ㄎㄜ", "ㄌㄧㄡˋ ㄎㄜ", "ㄅㄚ ㄎㄜ"], answer: "6 顆", explain: "3 個 2 合起來是 2 + 2 + 2 = 6 顆。", explainZhuyin: "ㄙㄢ ㄍㄜ˙ ㄦˋ ㄏㄜˊ ㄑㄧˇ ㄌㄞˊ ㄕˋ ㄦˋ ㄐㄧㄚ ㄦˋ ㄐㄧㄚ ㄦˋ ㄉㄥˇ ㄩˊ ㄌㄧㄡˋ ㄎㄜ。" },
-        { category: "圖形觀察", categoryZhuyin: "ㄊㄨˊ ㄒㄧㄥˊ ㄍㄨㄢ ㄔㄚˊ", prompt: "一個三角形有 3 個角，兩個三角形一共有幾個角？", promptZhuyin: "ㄧˊ ㄍㄜ˙ ㄙㄢ ㄐㄧㄠˇ ㄒㄧㄥˊ ㄧㄡˇ ㄙㄢ ㄍㄜ˙ ㄐㄧㄠˇ，ㄌㄧㄤˇ ㄍㄜ˙ ㄙㄢ ㄐㄧㄠˇ ㄒㄧㄥˊ ㄧˊ ㄍㄨㄥˋ ㄧㄡˇ ㄐㄧˇ ㄍㄜ˙ ㄐㄧㄠˇ？", options: ["5 個", "6 個", "8 個"], optionZhuyin: ["ㄨˇ ㄍㄜ˙", "ㄌㄧㄡˋ ㄍㄜ˙", "ㄅㄚ ㄍㄜ˙"], answer: "6 個", explain: "每個三角形有 3 個角，3 + 3 = 6 個角。", explainZhuyin: "ㄇㄟˇ ㄍㄜ˙ ㄙㄢ ㄐㄧㄠˇ ㄒㄧㄥˊ ㄧㄡˇ ㄙㄢ ㄍㄜ˙ ㄐㄧㄠˇ，ㄙㄢ ㄐㄧㄚ ㄙㄢ ㄉㄥˇ ㄩˊ ㄌㄧㄡˋ ㄍㄜ˙ ㄐㄧㄠˇ。" }
+        { category: "圖形觀察", categoryZhuyin: "ㄊㄨˊ ㄒㄧㄥˊ ㄍㄨㄢ ㄔㄚˊ", prompt: "一個三角形有 3 個角，兩個三角形一共有幾個角？", promptZhuyin: "ㄧˊ ㄍㄜ˙ ㄙㄢ ㄐㄧㄠˇ ㄒㄧㄥˊ ㄧㄡˇ ㄙㄢ ㄍㄜ˙ ㄐㄧㄠˇ，ㄌㄧㄤˇ ㄍㄜ˙ ㄙㄢ ㄐㄧㄠˇ ㄒㄧㄥˊ ㄧˊ ㄍㄨㄥˋ ㄧㄡˇ ㄐㄧˇ ㄍㄜ˙ ㄐㄧㄠˇ？", options: ["5 個", "6 個", "8 個"], optionZhuyin: ["ㄨˇ ㄍㄜ˙", "ㄌㄧㄡˋ ㄍㄜ˙", "ㄅㄚ ㄍㄜ˙"], answer: "6 個", explain: "每個三角形有 3 個角，3 + 3 = 6 個角。", explainZhuyin: "ㄇㄟˇ ㄍㄜ˙ ㄙㄢ ㄐㄧㄠˇ ㄒㄧㄥˊ ㄧㄡˇ ㄙㄢ ㄍㄜ˙ ㄐㄧㄠˇ，ㄙㄢ ㄐㄧㄚ ㄙㄢ ㄉㄥˇ ㄩˊ ㄌㄧㄡˋ ㄍㄜ˙ ㄐㄧㄠˇ。" },
+        { category: "圖形觀察", categoryZhuyin: "ㄊㄨˊ ㄒㄧㄥˊ ㄍㄨㄢ ㄔㄚˊ", prompt: "一個三角形有 3 個角，兩個三角形一共有幾個角？", promptZhuyin: "ㄧˊ ㄍㄜ˙ ㄙㄢ ㄐㄧㄠˇ ㄒㄧㄥˊ ㄧㄡˇ ㄙㄢ ㄍㄜ˙ ㄐㄧㄠˇ，ㄌㄧㄤˇ ㄍㄜ˙ ㄙㄢ ㄐㄧㄠˇ ㄒㄧㄥˊ ㄧˊ ㄍㄨㄥˋ ㄧㄡˇ ㄐㄧˇ ㄍㄜ˙ ㄐㄧㄠˇ？", options: ["5 個", "6 個", "8 個"], optionZhuyin: ["ㄨˇ ㄍㄜ˙", "ㄌㄧㄡˋ ㄍㄜ˙", "ㄅㄚ ㄍㄜ˙"], answer: "6 個", explain: "每個三角形有 3 個角，3 + 3 = 6 個角。", explainZhuyin: "ㄇㄟˇ ㄍㄜ˙ ㄙㄢ ㄐㄧㄠˇ ㄒㄧㄥˊ ㄧㄡˇ ㄙㄢ ㄍㄜ˙ ㄐㄧㄠˇ，ㄙㄢ ㄐㄧㄚ ㄙㄢ ㄉㄥˇ ㄩˊ ㄌㄧㄡˋ ㄍㄜ˙ ㄐㄧㄠˇ。" },
+        { category: "找規律", categoryZhuyin: "ㄓㄠˇ ㄍㄨㄟ ㄌㄩˋ", prompt: "星星每次多 2 顆：3、5、7，接下來是幾顆？", promptZhuyin: "ㄒㄧㄥ ㄒㄧㄥ ㄇㄟˇ ㄘˋ ㄉㄨㄛ ㄦˋ ㄎㄜ：ㄙㄢ、ㄨˇ、ㄑㄧ，ㄐㄧㄝ ㄒㄧㄚˋ ㄌㄞˊ ㄕˋ ㄐㄧˇ ㄎㄜ？", options: ["8 顆", "9 顆", "10 顆"], optionZhuyin: ["ㄅㄚ ㄎㄜ", "ㄐㄧㄡˇ ㄎㄜ", "ㄕˊ ㄎㄜ"], answer: "9 顆", explain: "每次增加 2，7 再加 2 是 9。", explainZhuyin: "ㄇㄟˇ ㄘˋ ㄗㄥ ㄐㄧㄚ ㄦˋ，ㄑㄧ ㄗㄞˋ ㄐㄧㄚ ㄦˋ ㄕˋ ㄐㄧㄡˇ。" },
+        { category: "找規律", categoryZhuyin: "ㄓㄠˇ ㄍㄨㄟ ㄌㄩˋ", prompt: "數字照著 1、3、5、7 排列，下一個數字是幾？", promptZhuyin: "ㄕㄨˋ ㄗˋ ㄓㄠˋ ㄓㄜ˙ ㄧ、ㄙㄢ、ㄨˇ、ㄑㄧ ㄆㄞˊ ㄌㄧㄝˋ，ㄒㄧㄚˋ ㄧˊ ㄍㄜ˙ ㄕㄨˋ ㄗˋ ㄕˋ ㄐㄧˇ？", options: ["8", "9", "10"], optionZhuyin: ["ㄅㄚ", "ㄐㄧㄡˇ", "ㄕˊ"], answer: "9", explain: "每次增加 2，7 後面是 9。", explainZhuyin: "ㄇㄟˇ ㄘˋ ㄗㄥ ㄐㄧㄚ ㄦˋ，ㄑㄧ ㄏㄡˋ ㄇㄧㄢˋ ㄕˋ ㄐㄧㄡˇ。" },
+        { category: "數字推理", categoryZhuyin: "ㄕㄨˋ ㄗˋ ㄊㄨㄟ ㄌㄧˇ", prompt: "哪一個數字比 14 大、又比 17 小？", promptZhuyin: "ㄋㄚˇ ㄧˊ ㄍㄜ˙ ㄕㄨˋ ㄗˋ ㄅㄧˇ ㄕˊ ㄙˋ ㄉㄚˋ、ㄧㄡˋ ㄅㄧˇ ㄕˊ ㄑㄧ ㄒㄧㄠˇ？", options: ["13", "15", "18"], optionZhuyin: ["ㄕˊ ㄙㄢ", "ㄕˊ ㄨˇ", "ㄕˊ ㄅㄚ"], answer: "15", explain: "15 大於 14，也小於 17。", explainZhuyin: "ㄕˊ ㄨˇ ㄉㄚˋ ㄩˊ ㄕˊ ㄙˋ，ㄧㄝˇ ㄒㄧㄠˇ ㄩˊ ㄕˊ ㄑㄧ。" },
+        { category: "數字推理", categoryZhuyin: "ㄕㄨˋ ㄗˋ ㄊㄨㄟ ㄌㄧˇ", prompt: "小美有 12 張貼紙，小安比她多 3 張，小安有幾張？", promptZhuyin: "ㄒㄧㄠˇ ㄇㄟˇ ㄧㄡˇ ㄕˊ ㄦˋ ㄓㄤ ㄊㄧㄝ ㄓˇ，ㄒㄧㄠˇ ㄢ ㄅㄧˇ ㄊㄚ ㄉㄨㄛ ㄙㄢ ㄓㄤ，ㄒㄧㄠˇ ㄢ ㄧㄡˇ ㄐㄧˇ ㄓㄤ？", options: ["9 張", "15 張", "16 張"], optionZhuyin: ["ㄐㄧㄡˇ ㄓㄤ", "ㄕˊ ㄨˇ ㄓㄤ", "ㄕˊ ㄌㄧㄡˋ ㄓㄤ"], answer: "15 張", explain: "12 加上 3 是 15 張。", explainZhuyin: "ㄕˊ ㄦˋ ㄐㄧㄚ ㄕㄤˋ ㄙㄢ ㄕˋ ㄕˊ ㄨˇ ㄓㄤ。" },
+        { category: "數字推理", categoryZhuyin: "ㄕㄨˋ ㄗˋ ㄊㄨㄟ ㄌㄧˇ", prompt: "有 18 顆糖，平均分給 2 個小朋友，每人分到幾顆？", promptZhuyin: "ㄧㄡˇ ㄕˊ ㄅㄚ ㄎㄜ˙ ㄊㄤˊ，ㄆㄧㄥˊ ㄐㄩㄣ ㄈㄣ ㄍㄟˇ ㄦˋ ㄍㄜ˙ ㄒㄧㄠˇ ㄆㄥˊ ㄧㄡˇ，ㄇㄟˇ ㄖㄣˊ ㄈㄣ ㄉㄠˋ ㄐㄧˇ ㄎㄜ˙？", options: ["8 顆", "9 顆", "10 顆"], optionZhuyin: ["ㄅㄚ ㄎㄜ˙", "ㄐㄧㄡˇ ㄎㄜ˙", "ㄕˊ ㄎㄜ˙"], answer: "9 顆", explain: "兩個 9 合起來是 18，所以每人 9 顆。", explainZhuyin: "ㄌㄧㄤˇ ㄍㄜ˙ ㄐㄧㄡˇ ㄏㄜˊ ㄑㄧˇ ㄌㄞˊ ㄕˋ ㄕˊ ㄅㄚ，ㄙㄨㄛˇ ㄧˇ ㄇㄟˇ ㄖㄣˊ ㄐㄧㄡˇ ㄎㄜ˙。" },
+        { category: "生活推理", categoryZhuyin: "ㄕㄥ ㄏㄨㄛˊ ㄊㄨㄟ ㄌㄧˇ", prompt: "盒子裡有 4 顆紅球和 3 顆藍球，拿走 2 顆後，最多還有幾顆？", promptZhuyin: "ㄏㄜˊ ㄗ˙ ㄌㄧˇ ㄧㄡˇ ㄙˋ ㄎㄜ˙ ㄏㄨㄥˊ ㄑㄧㄡˊ ㄏㄜˊ ㄙㄢ ㄎㄜ˙ ㄌㄢˊ ㄑㄧㄡˊ，ㄋㄚˊ ㄗㄡˇ ㄦˋ ㄎㄜ˙ ㄏㄡˋ，ㄗㄨㄟˋ ㄉㄨㄛ ㄏㄞˊ ㄧㄡˇ ㄐㄧˇ ㄎㄜ˙？", options: ["3 顆", "5 顆", "7 顆"], optionZhuyin: ["ㄙㄢ ㄎㄜ˙", "ㄨˇ ㄎㄜ˙", "ㄑㄧ ㄎㄜ˙"], answer: "5 顆", explain: "原來有 4 加 3 共 7 顆，拿走 2 顆還有 5 顆。", explainZhuyin: "ㄩㄢˊ ㄌㄞˊ ㄧㄡˇ ㄙˋ ㄐㄧㄚ ㄙㄢ ㄍㄨㄥˋ ㄑㄧ ㄎㄜ˙，ㄋㄚˊ ㄗㄡˇ ㄦˋ ㄎㄜ˙ ㄏㄞˊ ㄧㄡˇ ㄨˇ ㄎㄜ˙。" },
+        { category: "比較推理", categoryZhuyin: "ㄅㄧˇ ㄐㄧㄠˋ ㄊㄨㄟ ㄌㄧˇ", prompt: "小狗比小貓重，小貓比小兔重，誰最輕？", promptZhuyin: "ㄒㄧㄠˇ ㄍㄡˇ ㄅㄧˇ ㄒㄧㄠˇ ㄇㄠ ㄓㄨㄥˋ，ㄒㄧㄠˇ ㄇㄠ ㄅㄧˇ ㄒㄧㄠˇ ㄊㄨˋ ㄓㄨㄥˋ，ㄕㄟˊ ㄗㄨㄟˋ ㄑㄧㄥ？", options: ["小狗", "小貓", "小兔"], optionZhuyin: ["ㄒㄧㄠˇ ㄍㄡˇ", "ㄒㄧㄠˇ ㄇㄠ", "ㄒㄧㄠˇ ㄊㄨˋ"], answer: "小兔", explain: "小狗比小貓重，小貓又比小兔重，所以小兔最輕。", explainZhuyin: "ㄒㄧㄠˇ ㄍㄡˇ ㄅㄧˇ ㄒㄧㄠˇ ㄇㄠ ㄓㄨㄥˋ，ㄒㄧㄠˇ ㄇㄠ ㄧㄡˋ ㄅㄧˇ ㄒㄧㄠˇ ㄊㄨˋ ㄓㄨㄥˋ，ㄙㄨㄛˇ ㄧˇ ㄒㄧㄠˇ ㄊㄨˋ ㄗㄨㄟˋ ㄑㄧㄥ。" },
+        { category: "時間推理", categoryZhuyin: "ㄕˊ ㄐㄧㄢ ㄊㄨㄟ ㄌㄧˇ", prompt: "今天是星期四，昨天是星期幾？", promptZhuyin: "ㄐㄧㄣ ㄊㄧㄢ ㄕˋ ㄒㄧㄥ ㄑㄧˊ ㄙˋ，ㄗㄨㄛˊ ㄊㄧㄢ ㄕˋ ㄒㄧㄥ ㄑㄧˊ ㄐㄧˇ？", options: ["星期二", "星期三", "星期五"], optionZhuyin: ["ㄒㄧㄥ ㄑㄧˊ ㄦˋ", "ㄒㄧㄥ ㄑㄧˊ ㄙㄢ", "ㄒㄧㄥ ㄑㄧˊ ㄨˇ"], answer: "星期三", explain: "星期四的前一天是星期三。", explainZhuyin: "ㄒㄧㄥ ㄑㄧˊ ㄙˋ ㄉㄜ˙ ㄑㄧㄢˊ ㄧˋ ㄊㄧㄢ ㄕˋ ㄒㄧㄥ ㄑㄧˊ ㄙㄢ。" },
+        { category: "時間推理", categoryZhuyin: "ㄕˊ ㄐㄧㄢ ㄊㄨㄟ ㄌㄧˇ", prompt: "小明 3 點開始畫畫，畫了 2 小時，幾點畫完？", promptZhuyin: "ㄒㄧㄠˇ ㄇㄧㄥˊ ㄙㄢ ㄉㄧㄢˇ ㄎㄞ ㄕˇ ㄏㄨㄚˋ ㄏㄨㄚˋ，ㄏㄨㄚˋ ㄌㄜ˙ ㄦˋ ㄒㄧㄠˇ ㄕˊ，ㄐㄧˇ ㄉㄧㄢˇ ㄏㄨㄚˋ ㄨㄢˊ？", options: ["4 點", "5 點", "6 點"], optionZhuyin: ["ㄙˋ ㄉㄧㄢˇ", "ㄨˇ ㄉㄧㄢˇ", "ㄌㄧㄡˋ ㄉㄧㄢˇ"], answer: "5 點", explain: "從 3 點往後數兩小時，是 4 點、5 點。", explainZhuyin: "ㄘㄨㄥˊ ㄙㄢ ㄉㄧㄢˇ ㄨㄤˇ ㄏㄡˋ ㄕㄨˇ ㄌㄧㄤˇ ㄒㄧㄠˇ ㄕˊ，ㄕˋ ㄙˋ ㄉㄧㄢˇ、ㄨˇ ㄉㄧㄢˇ。" },
+        { category: "圖形觀察", categoryZhuyin: "ㄊㄨˊ ㄒㄧㄥˊ ㄍㄨㄢ ㄔㄚˊ", prompt: "兩個正方形各有 4 條邊，合起來一共有幾條邊？", promptZhuyin: "ㄌㄧㄤˇ ㄍㄜ˙ ㄓㄥˋ ㄈㄤ ㄒㄧㄥˊ ㄍㄜˋ ㄧㄡˇ ㄙˋ ㄊㄧㄠˊ ㄅㄧㄢ，ㄏㄜˊ ㄑㄧˇ ㄌㄞˊ ㄧˊ ㄍㄨㄥˋ ㄧㄡˇ ㄐㄧˇ ㄊㄧㄠˊ ㄅㄧㄢ？", options: ["6 條", "8 條", "10 條"], optionZhuyin: ["ㄌㄧㄡˋ ㄊㄧㄠˊ", "ㄅㄚ ㄊㄧㄠˊ", "ㄕˊ ㄊㄧㄠˊ"], answer: "8 條", explain: "兩個正方形各有 4 條邊，4 加 4 是 8 條。", explainZhuyin: "ㄌㄧㄤˇ ㄍㄜ˙ ㄓㄥˋ ㄈㄤ ㄒㄧㄥˊ ㄍㄜˋ ㄧㄡˇ ㄙˋ ㄊㄧㄠˊ ㄅㄧㄢ，ㄙˋ ㄐㄧㄚ ㄙˋ ㄕˋ ㄅㄚ ㄊㄧㄠˊ。" },
+        { category: "找規律", categoryZhuyin: "ㄓㄠˇ ㄍㄨㄟ ㄌㄩˋ", prompt: "圖案照著「星星、月亮、星星、月亮」排列，下一個是什麼？", promptZhuyin: "ㄊㄨˊ ㄢˋ ㄓㄠˋ ㄓㄜ˙ ㄒㄧㄥ ㄒㄧㄥ、ㄩㄝˋ ㄌㄧㄤˋ、ㄒㄧㄥ ㄒㄧㄥ、ㄩㄝˋ ㄌㄧㄤˋ ㄆㄞˊ ㄌㄧㄝˋ，ㄒㄧㄚˋ ㄧˊ ㄍㄜ˙ ㄕˋ ㄕㄣˊ ㄇㄜ˙？", options: ["星星", "月亮", "太陽"], optionZhuyin: ["ㄒㄧㄥ ㄒㄧㄥ", "ㄩㄝˋ ㄌㄧㄤˋ", "ㄊㄞˋ ㄧㄤˊ"], answer: "星星", explain: "星星和月亮輪流出現，下一個又是星星。", explainZhuyin: "ㄒㄧㄥ ㄒㄧㄥ ㄏㄜˊ ㄩㄝˋ ㄌㄧㄤˋ ㄌㄨㄣˊ ㄌㄧㄡˊ ㄔㄨ ㄒㄧㄢˋ，ㄒㄧㄚˋ ㄧˊ ㄍㄜ˙ ㄧㄡˋ ㄕˋ ㄒㄧㄥ ㄒㄧㄥ。" },
+        { category: "圖形觀察", categoryZhuyin: "ㄊㄨˊ ㄒㄧㄥˊ ㄍㄨㄢ ㄔㄚˊ", prompt: "小方把 3 個積木放在一起，又拿來 2 個，一共有幾個？", promptZhuyin: "ㄒㄧㄠˇ ㄈㄤ ㄅㄚˇ ㄙㄢ ㄍㄜ˙ ㄐㄧ ㄇㄨˋ ㄈㄤˋ ㄗㄞˋ ㄧˋ ㄑㄧˇ，ㄧㄡˋ ㄋㄚˊ ㄌㄞˊ ㄦˋ ㄍㄜ˙，ㄧˊ ㄍㄨㄥˋ ㄧㄡˇ ㄐㄧˇ ㄍㄜ˙？", options: ["4 個", "5 個", "6 個"], optionZhuyin: ["ㄙˋ ㄍㄜ˙", "ㄨˇ ㄍㄜ˙", "ㄌㄧㄡˋ ㄍㄜ˙"], answer: "5 個", explain: "3 個再加 2 個，3 + 2 = 5。", explainZhuyin: "ㄙㄢ ㄍㄜ˙ ㄗㄞˋ ㄐㄧㄚ ㄦˋ ㄍㄜ˙，ㄙㄢ ㄐㄧㄚ ㄦˋ ㄉㄥˇ ㄩˊ ㄨˇ。" }
       ]
     },
     english: {
@@ -309,6 +322,9 @@
   const missedList = document.getElementById("missed-list");
   const progressTrack = document.getElementById("progress-track");
   const progressFill = document.getElementById("progress-fill");
+  const questionText = document.getElementById("question-text");
+  const readQuestionButton = document.getElementById("read-question-button");
+  const speechStatus = document.getElementById("speech-status");
   const retryButton = document.getElementById("retry-button");
   const courseReturnButton = document.getElementById("course-return-button");
   let selectedLessonIndex = 0;
@@ -321,6 +337,9 @@
   let missedCategories = [];
   let answered = false;
   let totalStars = 0;
+  let activeSpeechUtterance = null;
+  const speechSupported = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+  const femaleTaiwanVoiceName = /hsiao[\s-]?(chen|yu|mei)|ting[\s-]?ting|mei[\s-]?jia|meijia|yating|hanhan|female|女/iu;
 
   function createEmptyProgress() {
     return Object.fromEntries(
@@ -396,6 +415,7 @@
   }
 
   function showReady() {
+    stopQuestionSpeech();
     readyState.hidden = false;
     lessonState.hidden = true;
     questionState.hidden = true;
@@ -464,7 +484,7 @@
     const source = selectedMathMode === "contest"
       ? subjects.math.challengeQuestions
       : subjects.math.questions;
-    round = shuffleQuestions(source, 5);
+    round = shuffleQuestions(source, Math.min(selectedMathMode === "contest" ? 10 : 5, source.length));
     questionIndex = 0;
     correctCount = 0;
     missedCategories = [];
@@ -527,12 +547,13 @@
   }
 
   function renderQuestion() {
+    stopQuestionSpeech();
     const question = round[questionIndex];
     answered = false;
     document.getElementById("round-label").textContent = `${questionIndex + 1} / ${round.length}`;
     const categoryLabel = document.getElementById("category-label");
     renderAnnotatedText(categoryLabel, question.category, question.categoryZhuyin);
-    renderAnnotatedText(document.getElementById("question-text"), question.prompt, question.promptZhuyin);
+    renderAnnotatedText(questionText, question.prompt, question.promptZhuyin);
     progressTrack.setAttribute("aria-valuemax", String(round.length));
     progressTrack.setAttribute("aria-valuenow", String(questionIndex));
     progressFill.style.width = `${(questionIndex / round.length) * 100}%`;
@@ -549,6 +570,69 @@
       button.addEventListener("click", () => selectAnswer(button, option, question));
       answerList.append(button);
     });
+  }
+
+  function getTaiwaneseFemaleVoice() {
+    return window.speechSynthesis.getVoices().find((voice) =>
+      voice.lang.replace(/_/gu, "-").toLowerCase().startsWith("zh-tw")
+      && femaleTaiwanVoiceName.test(voice.name)
+    );
+  }
+
+  function stopQuestionSpeech() {
+    activeSpeechUtterance = null;
+    if (speechSupported) window.speechSynthesis.cancel();
+    readQuestionButton.setAttribute("aria-pressed", "false");
+    readQuestionButton.setAttribute("aria-label", "朗讀題目和選項");
+    readQuestionButton.querySelector(".read-question-label").textContent = "朗讀題目";
+  }
+
+  function readQuestionAloud() {
+    if (!speechSupported) {
+      speechStatus.textContent = "這個瀏覽器不支援語音朗讀，請改用較新的瀏覽器。";
+      return;
+    }
+    if (window.speechSynthesis.speaking) {
+      stopQuestionSpeech();
+      speechStatus.textContent = "已停止朗讀。";
+      return;
+    }
+
+    const voice = getTaiwaneseFemaleVoice();
+    if (!voice) {
+      speechStatus.textContent = "這台裝置找不到女性繁體中文（台灣）語音。請在裝置語音設定安裝台灣中文女聲後再試；不會改用中國大陸語音。";
+      return;
+    }
+
+    const question = round[questionIndex];
+    const choices = question.options
+      .map((option, index) => `選項${["一", "二", "三"][index]}：${option}`)
+      .join("。");
+    const utterance = new SpeechSynthesisUtterance(`${question.prompt}。${choices}。`);
+    utterance.voice = voice;
+    utterance.lang = "zh-TW";
+    utterance.rate = 0.85;
+    utterance.pitch = 1.08;
+    activeSpeechUtterance = utterance;
+    utterance.onstart = () => {
+      if (activeSpeechUtterance !== utterance) return;
+      readQuestionButton.setAttribute("aria-pressed", "true");
+      readQuestionButton.setAttribute("aria-label", "停止朗讀");
+      readQuestionButton.querySelector(".read-question-label").textContent = "停止朗讀";
+      speechStatus.textContent = "正在朗讀題目和選項。";
+    };
+    utterance.onend = () => {
+      if (activeSpeechUtterance !== utterance) return;
+      stopQuestionSpeech();
+      speechStatus.textContent = "題目朗讀完畢。";
+    };
+    utterance.onerror = () => {
+      if (activeSpeechUtterance !== utterance) return;
+      stopQuestionSpeech();
+      speechStatus.textContent = "朗讀時發生問題，請確認裝置的語音服務正常。";
+    };
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
   }
 
   function selectAnswer(button, answer, question) {
@@ -644,16 +728,18 @@
 
   function updateMathMode() {
     const contestMode = selectedMathMode === "contest";
+    const source = contestMode ? subjects.math.challengeQuestions : subjects.math.questions;
+    const roundSize = Math.min(contestMode ? 10 : 5, source.length);
     mathModeButtons.forEach((button) => {
       button.setAttribute("aria-pressed", String(button.dataset.mode === selectedMathMode));
     });
     mathModeNote.textContent = contestMode
-      ? "原創競賽風格題，練習觀察和推理。"
-      : "練習加減法、數字和生活題。";
+      ? `原創觀察推理題：題庫共 ${source.length} 題，每回合隨機練習 ${roundSize} 題。`
+      : `練習加減法、數字和生活題：題庫共 ${source.length} 題，每回合隨機練習 ${roundSize} 題。`;
     mathModeNote.append(mathModeNoteZhuyin);
     mathModeNoteZhuyin.textContent = contestMode
-      ? "ㄩㄢˊ ㄔㄨㄤˋ ㄐㄧㄥˋ ㄙㄞˋ ㄈㄥ ㄍㄜˊ ㄊㄧˊ，ㄌㄧㄢˋ ㄒㄧˊ ㄍㄨㄢ ㄔㄚˊ ㄏㄜˊ ㄊㄨㄟ ㄌㄧˇ。"
-      : "ㄌㄧㄢˋ ㄒㄧˊ ㄐㄧㄚ ㄐㄧㄢˇ ㄈㄚˇ、ㄕㄨˋ ㄗˋ ㄏㄜˊ ㄕㄥ ㄏㄨㄛˊ ㄊㄧˊ。";
+      ? `ㄩㄢˊ ㄔㄨㄤˋ ㄍㄨㄢ ㄔㄚˊ ㄊㄨㄟ ㄌㄧˇ ㄊㄧˊ：ㄊㄧˊ ㄎㄨˋ ㄍㄨㄥˋ ${source.length} ㄊㄧˊ，ㄇㄟˇ ㄏㄨㄟˊ ㄏㄜˊ ㄙㄨㄟˊ ㄐㄧ ㄌㄧㄢˋ ㄒㄧˊ ${roundSize} ㄊㄧˊ。`
+      : `ㄌㄧㄢˋ ㄒㄧˊ ㄐㄧㄚ ㄐㄧㄢˇ ㄈㄚˇ、ㄕㄨˋ ㄗˋ ㄏㄜˊ ㄕㄥ ㄏㄨㄛˊ ㄊㄧˊ：ㄊㄧˊ ㄎㄨˋ ㄍㄨㄥˋ ${source.length} ㄊㄧˊ，ㄇㄟˇ ㄏㄨㄟˊ ㄏㄜˊ ㄙㄨㄟˊ ㄐㄧ ㄌㄧㄢˋ ㄒㄧˊ ${roundSize} ㄊㄧˊ。`;
   }
 
   mathModeButtons.forEach((button) => {
@@ -662,6 +748,17 @@
       updateMathMode();
     });
   });
+
+  if (!speechSupported) readQuestionButton.disabled = true;
+  if (speechSupported) {
+    window.speechSynthesis.addEventListener("voiceschanged", () => {
+      if (activeSpeechUtterance || !window.speechSynthesis.getVoices().length) return;
+      speechStatus.textContent = getTaiwaneseFemaleVoice()
+        ? "已找到女性繁體中文（台灣）語音。"
+        : "目前找不到女性繁體中文（台灣）語音；不會改用其他地區語音。";
+    });
+  }
+  readQuestionButton.addEventListener("click", readQuestionAloud);
 
   tabs.forEach((tab, index) => {
     tab.addEventListener("click", () => chooseSubject(tab.dataset.subject, false));
