@@ -360,6 +360,13 @@
     const lessons = courseData[selectedSubject];
     const completedCount = courseProgress[selectedSubject].filter(Boolean).length;
     courseProgressLabel.textContent = `已完成 ${completedCount} / ${lessons.length} 課`;
+    tabs.forEach((tab) => {
+      const subject = tab.dataset.subject;
+      const progress = document.getElementById(`subject-progress-${subject}`);
+      const subjectLessons = courseData[subject];
+      const subjectCompletedCount = courseProgress[subject].filter(Boolean).length;
+      progress.textContent = `已完成 ${subjectCompletedCount} / ${subjectLessons.length} 課`;
+    });
     lessonList.replaceChildren();
 
     lessons.forEach((lesson, index) => {

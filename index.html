@@ -22,9 +22,10 @@
   <main id="top" class="page">
     <section class="welcome" aria-labelledby="page-title">
       <div class="welcome-copy">
-        <p class="eyebrow">一年級・每天玩一點</p>
-        <h1 id="page-title">小學練習樂園<span aria-hidden="true">！</span></h1>
-        <p class="welcome-text">選一科從第一課開始，完成教學和小測，慢慢解鎖下一課。</p>
+          <p class="eyebrow">一年級・每天玩一點</p>
+          <h1 id="page-title">我的學習遊戲樂園<span aria-hidden="true">！</span></h1>
+          <p class="welcome-text">選一個冒險，從第一課開始學習和闖關吧！</p>
+          <span class="zhuyin welcome-text-zhuyin">ㄒㄩㄢˇ ㄧˊ ㄍㄜ˙ ㄇㄠˋ ㄒㄧㄢˇ，ㄘㄨㄥˊ ㄉㄧˋ ㄧ ㄎㄜˋ ㄎㄞ ㄕˇ ㄒㄩㄝˊ ㄒㄧˊ ㄏㄜˊ ㄔㄨㄤˇ ㄍㄨㄢ ㄅㄚ！</span>
       </div>
       <div class="mascot" aria-hidden="true">
         <svg viewBox="0 0 240 190">
@@ -56,22 +57,47 @@
     <section class="practice" aria-labelledby="practice-title">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">選一科，從第一課開始<span class="zhuyin zhuyin--label">ㄒㄩㄢˇ ㄧˋ ㄎㄜ，ㄘㄨㄥˊ ㄉㄧˋ ㄧ ㄎㄜˋ ㄎㄞ ㄕˇ</span></p>
-          <h2 id="practice-title">逐課學習小教室<span class="zhuyin zhuyin--heading">ㄓㄨˊ ㄎㄜˋ ㄒㄩㄝˊ ㄒㄧˊ ㄒㄧㄠˇ ㄐㄧㄠˋ ㄕˋ</span></h2>
+          <p class="eyebrow">選一個喜歡的冒險<span class="zhuyin zhuyin--label">ㄒㄩㄢˇ ㄧˊ ㄍㄜ˙ ㄒㄧˇ ㄏㄨㄢ ㄉㄜ˙ ㄇㄠˋ ㄒㄧㄢˇ</span></p>
+          <h2 id="practice-title">一年級的學習遊戲<span class="zhuyin zhuyin--heading">ㄧˋ ㄋㄧㄢˊ ㄐㄧˊ ㄉㄜ˙ ㄒㄩㄝˊ ㄒㄧˊ ㄧㄡˊ ㄒㄧˋ</span></h2>
         </div>
         <p class="star-count" id="star-count" aria-label="累積星星" aria-live="polite">⭐ <span id="star-total">0</span></p>
       </div>
 
-      <div class="subject-tabs" role="tablist" aria-label="選擇練習科目">
-        <button class="subject-tab" id="tab-chinese" type="button" role="tab" aria-selected="true" aria-controls="subject-panel" data-subject="chinese">
-          <span class="subject-icon" aria-hidden="true">📖</span><span>國語<small class="zhuyin">ㄍㄨㄛˊ ㄩˇ</small></span>
+      <div class="subject-tabs" role="tablist" aria-label="選擇一年級學習遊戲">
+        <button class="subject-tab subject-tab--chinese" id="tab-chinese" type="button" role="tab" aria-selected="true" aria-controls="subject-panel" data-subject="chinese">
+          <span class="subject-tab__top"><span class="subject-icon" aria-hidden="true">📖</span>          <span class="subject-badge">國語冒險<small class="zhuyin">ㄍㄨㄛˊ ㄩˇ ㄇㄠˋ ㄒㄧㄢˇ</small></span></span>
+          <span class="subject-tab__body">
+            <span class="subject-name">國語小高手<small class="zhuyin">ㄍㄨㄛˊ ㄩˇ ㄒㄧㄠˇ ㄍㄠ ㄕㄡˇ</small></span>
+            <span class="subject-description">認識國字、部件和生活中的詞語。<small class="zhuyin">ㄖㄣˋ ㄕˋ ㄍㄨㄛˊ ㄗˋ、ㄅㄨˋ ㄐㄧㄢˋ ㄏㄜˊ ㄕㄥ ㄏㄨㄛˊ ㄓㄨㄥ ㄉㄜ˙ ㄘˊ ㄩˇ。</small></span>
+            <span class="subject-progress" id="subject-progress-chinese">已完成 0 / 6 課</span>
+            <span class="subject-cta"><span>開始冒險<small class="zhuyin">ㄎㄞ ㄕˇ ㄇㄠˋ ㄒㄧㄢˇ</small></span><span aria-hidden="true">→</span></span>
+          </span>
         </button>
-        <button class="subject-tab" id="tab-math" type="button" role="tab" aria-selected="false" aria-controls="subject-panel" data-subject="math" tabindex="-1">
-          <span class="subject-icon" aria-hidden="true">🔢</span><span>數學<small class="zhuyin">ㄕㄨˋ ㄒㄩㄝˊ</small></span>
+        <button class="subject-tab subject-tab--math" id="tab-math" type="button" role="tab" aria-selected="false" aria-controls="subject-panel" data-subject="math" tabindex="-1">
+          <span class="subject-tab__top"><span class="subject-icon" aria-hidden="true">🔢</span>          <span class="subject-badge">數學闖關<small class="zhuyin">ㄕㄨˋ ㄒㄩㄝˊ ㄔㄨㄤˇ ㄍㄨㄢ</small></span></span>
+          <span class="subject-tab__body">
+            <span class="subject-name">數學探險家<small class="zhuyin">ㄕㄨˋ ㄒㄩㄝˊ ㄊㄢˋ ㄒㄧㄢˇ ㄐㄧㄚ</small></span>
+            <span class="subject-description">一起數數、比較大小，動動腦解題。<small class="zhuyin">ㄧˋ ㄑㄧˇ ㄕㄨˇ ㄕㄨˇ、ㄅㄧˇ ㄐㄧㄠˋ ㄉㄚˋ ㄒㄧㄠˇ，ㄉㄨㄥˋ ㄉㄨㄥˋ ㄋㄠˇ ㄐㄧㄝˇ ㄊㄧˊ。</small></span>
+            <span class="subject-progress" id="subject-progress-math">已完成 0 / 6 課</span>
+            <span class="subject-cta"><span>開始冒險<small class="zhuyin">ㄎㄞ ㄕˇ ㄇㄠˋ ㄒㄧㄢˇ</small></span><span aria-hidden="true">→</span></span>
+          </span>
         </button>
-        <button class="subject-tab" id="tab-english" type="button" role="tab" aria-selected="false" aria-controls="subject-panel" data-subject="english" tabindex="-1">
-          <span class="subject-icon" aria-hidden="true">🔤</span><span>英文<small class="zhuyin">ㄧㄥ ㄨㄣˊ</small></span>
+        <button class="subject-tab subject-tab--english" id="tab-english" type="button" role="tab" aria-selected="false" aria-controls="subject-panel" data-subject="english" tabindex="-1">
+          <span class="subject-tab__top"><span class="subject-icon" aria-hidden="true">🔤</span>          <span class="subject-badge">英文遊戲<small class="zhuyin">ㄧㄥ ㄨㄣˊ ㄧㄡˊ ㄒㄧˋ</small></span></span>
+          <span class="subject-tab__body">
+            <span class="subject-name">English 小達人<small class="zhuyin">ㄒㄧㄠˇ ㄉㄚˊ ㄖㄣˊ</small></span>
+            <span class="subject-description">認識英文字母、顏色和常見單字。<small class="zhuyin">ㄖㄣˋ ㄕˋ ㄧㄥ ㄨㄣˊ ㄗˋ ㄇㄨˇ、ㄧㄢˊ ㄙㄜˋ ㄏㄜˊ ㄔㄤˊ ㄐㄧㄢˋ ㄉㄢ ㄗˋ。</small></span>
+            <span class="subject-progress" id="subject-progress-english">已完成 0 / 6 課</span>
+            <span class="subject-cta"><span>開始冒險<small class="zhuyin">ㄎㄞ ㄕˇ ㄇㄠˋ ㄒㄧㄢˇ</small></span><span aria-hidden="true">→</span></span>
+          </span>
         </button>
+      </div>
+
+      <div class="section-heading practice-heading">
+        <div>
+          <p class="eyebrow">一課一課慢慢學<span class="zhuyin zhuyin--label">ㄧˊ ㄎㄜˋ ㄧˊ ㄎㄜˋ ㄇㄢˋ ㄇㄢˋ ㄒㄩㄝˊ</span></p>
+          <h2>逐課闖關小教室<span class="zhuyin zhuyin--heading">ㄓㄨˊ ㄎㄜˋ ㄔㄨㄤˇ ㄍㄨㄢ ㄒㄧㄠˇ ㄐㄧㄠˋ ㄕˋ</span></h2>
+        </div>
       </div>
 
       <div class="quiz-card" id="subject-panel" role="tabpanel" aria-labelledby="tab-chinese" tabindex="0">
