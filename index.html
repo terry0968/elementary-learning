@@ -51,7 +51,7 @@
         <span class="book-chip book-chip--blue">數學・南一</span>
         <span class="book-chip book-chip--green">英文・何嘉仁 Fun World (1)(2)</span>
       </div>
-      <p class="book-note">依一年級上學期常見學習方向自編，每科先提供六課入門內容；不是翰林、南一或何嘉仁課本的逐課內容。</p>
+      <p class="book-note">依翰林國語一上 20 課與南一數學一上 9 單元編排；國語、數學題目為原創練習，並非課本原題。</p>
     </section>
 
     <section class="practice" aria-labelledby="practice-title">
@@ -69,7 +69,7 @@
           <span class="subject-tab__body">
             <span class="subject-name">國語小高手<small class="zhuyin">ㄍㄨㄛˊ ㄩˇ ㄒㄧㄠˇ ㄍㄠ ㄕㄡˇ</small></span>
             <span class="subject-description">認識國字、部件和生活中的詞語。<small class="zhuyin">ㄖㄣˋ ㄕˋ ㄍㄨㄛˊ ㄗˋ、ㄅㄨˋ ㄐㄧㄢˋ ㄏㄜˊ ㄕㄥ ㄏㄨㄛˊ ㄓㄨㄥ ㄉㄜ˙ ㄘˊ ㄩˇ。</small></span>
-            <span class="subject-progress" id="subject-progress-chinese">已完成 0 / 6 課</span>
+            <span class="subject-progress" id="subject-progress-chinese">已完成 0 / 20 課</span>
             <span class="subject-cta"><span>開始冒險<small class="zhuyin">ㄎㄞ ㄕˇ ㄇㄠˋ ㄒㄧㄢˇ</small></span><span aria-hidden="true">→</span></span>
           </span>
         </button>
@@ -78,7 +78,7 @@
           <span class="subject-tab__body">
             <span class="subject-name">數學探險家<small class="zhuyin">ㄕㄨˋ ㄒㄩㄝˊ ㄊㄢˋ ㄒㄧㄢˇ ㄐㄧㄚ</small></span>
             <span class="subject-description">一起數數、比較大小，動動腦解題。<small class="zhuyin">ㄧˋ ㄑㄧˇ ㄕㄨˇ ㄕㄨˇ、ㄅㄧˇ ㄐㄧㄠˋ ㄉㄚˋ ㄒㄧㄠˇ，ㄉㄨㄥˋ ㄉㄨㄥˋ ㄋㄠˇ ㄐㄧㄝˇ ㄊㄧˊ。</small></span>
-            <span class="subject-progress" id="subject-progress-math">已完成 0 / 6 課</span>
+            <span class="subject-progress" id="subject-progress-math">已完成 0 / 9 課</span>
             <span class="subject-cta"><span>開始冒險<small class="zhuyin">ㄎㄞ ㄕˇ ㄇㄠˋ ㄒㄧㄢˇ</small></span><span aria-hidden="true">→</span></span>
           </span>
         </button>
@@ -107,20 +107,11 @@
           <span class="zhuyin zhuyin--standalone" id="subject-name-zhuyin" hidden>ㄍㄨㄛˊ ㄩˇ ㄒㄧㄠˇ ㄍㄠ ㄕㄡˇ</span>
           <p id="subject-description">認識國字、部件和生活中的詞語。</p>
           <span class="zhuyin zhuyin--standalone description-zhuyin" id="subject-description-zhuyin" hidden>ㄖㄣˋ ㄕˋ ㄍㄨㄛˊ ㄗˋ、ㄅㄨˋ ㄐㄧㄢˋ ㄏㄜˊ ㄕㄥ ㄏㄨㄛˊ ㄓㄨㄥ ㄉㄜ˙ ㄘˊ ㄩˇ。</span>
-          <p class="round-note">先看小課堂，再做 3 題小測；答對 2 題就能解鎖下一課。</p>
-          <span class="zhuyin zhuyin--standalone round-note-zhuyin">ㄒㄧㄢ ㄎㄢˋ ㄒㄧㄠˇ ㄎㄜˋ ㄊㄤˊ，ㄗㄞˋ ㄗㄨㄛˋ ㄙㄢ ㄊㄧˊ ㄒㄧㄠˇ ㄘㄜˋ；ㄉㄚˊ ㄉㄨㄟˋ ㄦˋ ㄊㄧˊ ㄐㄧㄡˋ ㄋㄥˊ ㄐㄧㄝˇ ㄙㄨㄛˇ ㄒㄧㄚˋ ㄧˋ ㄎㄜˋ。</span>
+          <p class="round-note" id="round-note">先看小課堂，再做 3 題小測；答對 2 題就能解鎖下一課。</p>
+          <span class="zhuyin zhuyin--standalone round-note-zhuyin" id="round-note-zhuyin">ㄒㄧㄢ ㄎㄢˋ ㄒㄧㄠˇ ㄎㄜˋ ㄊㄤˊ，ㄗㄞˋ ㄗㄨㄛˋ ㄙㄢ ㄊㄧˊ ㄒㄧㄠˇ ㄘㄜˋ；ㄉㄚˊ ㄉㄨㄟˋ ㄦˋ ㄊㄧˊ ㄐㄧㄡˋ ㄋㄥˊ ㄐㄧㄝˇ ㄙㄨㄛˇ ㄒㄧㄚˋ ㄧˋ ㄎㄜˋ。</span>
           <p class="course-progress" id="course-progress" aria-live="polite"></p>
           <div class="lesson-list" id="lesson-list" aria-label="課程列表"></div>
           <p class="progress-notice" id="progress-notice" role="status">學習進度會保存在這台裝置。</p>
-          <div class="math-mode" id="math-mode" hidden aria-label="選擇數學練習類型">
-            <p class="math-mode-title">數學加碼挑戰（不影響課程解鎖）<small class="zhuyin">ㄕㄨˋ ㄒㄩㄝˊ ㄐㄧㄚ ㄇㄚˇ ㄊㄧㄠˇ ㄓㄢˋ</small></p>
-            <div class="math-mode-options">
-              <button class="math-mode-button" type="button" data-mode="basic" aria-pressed="true">基礎練習<small class="zhuyin">ㄐㄧ ㄔㄨˇ ㄌㄧㄢˋ ㄒㄧˊ</small></button>
-              <button class="math-mode-button" type="button" data-mode="contest" aria-pressed="false">卓越盃風格<small class="zhuyin">ㄓㄨㄛˊ ㄩㄝˋ ㄅㄟ ㄈㄥ ㄍㄜˊ</small></button>
-            </div>
-            <p class="math-mode-note" id="math-mode-note">練習加減法、數字和生活題。<small class="zhuyin" id="math-mode-note-zhuyin">ㄌㄧㄢˋ ㄒㄧˊ ㄐㄧㄚ ㄐㄧㄢˇ ㄈㄚˇ、ㄕㄨˋ ㄗˋ ㄏㄜˊ ㄕㄥ ㄏㄨㄛˊ ㄊㄧˊ。</small></p>
-            <button class="secondary-button" id="challenge-start-button" type="button">開始加碼闖關</button>
-          </div>
         </div>
 
         <div class="lesson-state" id="lesson-state" hidden>
@@ -144,9 +135,9 @@
               </button>
             </div>
           </div>
-          <div class="progress-track" role="progressbar" aria-label="答題進度" aria-valuemin="0" aria-valuemax="5" aria-valuenow="0" id="progress-track"><span id="progress-fill"></span></div>
+          <div class="progress-track" role="progressbar" aria-label="答題進度" aria-valuemin="0" aria-valuemax="3" aria-valuenow="0" id="progress-track"><span id="progress-fill"></span></div>
           <h3 class="question-text" id="question-text"></h3>
-          <p class="speech-status" id="speech-status" role="status" aria-live="polite">使用裝置提供的繁體中文（台灣）女聲朗讀；若沒有合適語音，會提示你設定，不會改用中國大陸語音。</p>
+          <p class="speech-status" id="speech-status" role="status" aria-live="polite">優先使用裝置提供的繁體中文（台灣）女聲；語音清單未載入時，會以台灣中文語系嘗試朗讀。</p>
           <div class="answer-list" id="answer-list"></div>
           <div class="answer-feedback" id="answer-feedback" aria-live="polite"></div>
           <button class="primary-button next-button" id="next-button" type="button" hidden><span id="next-label">下一題</span><small class="zhuyin" id="next-zhuyin">ㄒㄧㄚˋ ㄧˊ ㄊㄧˊ</small><span aria-hidden="true">→</span></button>

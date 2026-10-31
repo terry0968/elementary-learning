@@ -141,15 +141,6 @@ h1, h2, h3, p { margin-top: 0; }
 .lesson-example { background: #fff1c8; }
 .lesson-tip { margin: 0; color: var(--muted); text-align: center; font-size: 13px; }
 .text-button { justify-self: start; border: 0; background: transparent; padding: 2px 0; text-decoration: underline; text-underline-offset: 3px; font-size: 14px; }
-.math-mode { width: min(100%, 430px); margin: 4px 0 8px; }
-.math-mode-title { margin: 0 0 5px; font-size: 14px; font-weight: 700; }
-.math-mode-title .zhuyin { font-size: 11px; }
-.math-mode-options { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
-.math-mode-button { min-height: 47px; border: 2px solid var(--ink); border-radius: 12px; background: #fffdf8; padding: 4px 7px; font-size: 15px; }
-.math-mode-button[aria-pressed="true"] { background: var(--blue); box-shadow: 2px 3px 0 var(--ink); }
-.math-mode-button .zhuyin { font-size: 10px; }
-.math-mode-note { margin: 5px 0 0; color: var(--muted); font-size: 12px; }
-.math-mode-note .zhuyin { font-size: 11px; }
 .secondary-button { min-height: 42px; border: 2px solid var(--ink); border-radius: 12px; background: #fffdf8; padding: 6px 15px; font-size: 15px; }
 .secondary-button:hover { background: #fff1c8; }
 .course-return-button { margin-top: 9px; }
